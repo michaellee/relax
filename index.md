@@ -1,5 +1,6 @@
 ---
-layout: default.liquid
+layout: layouts/default.liquid
+title: 'YO!'
 ---
 
 Hi!
