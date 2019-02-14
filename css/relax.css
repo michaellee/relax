@@ -1403,4 +1403,58 @@ h6, .h6 {
 .mlauto {
   margin-left: auto; }
 
+.bg-white {
+  background: #f9f9fa; }
+
+.bg-blue {
+  background: #006fbe; }
+
+.bg-red {
+  background: #d2202f; }
+
+.bg-green {
+  background: #007d34; }
+
+.bg-gray {
+  background: #606e79; }
+
+.bg-black {
+  background: #1D1F20; }
+
+.\!bg-white {
+  background: #f9f9fa !important; }
+
+.\!bg-blue {
+  background: #006fbe !important; }
+
+.\!bg-red {
+  background: #d2202f !important; }
+
+.\!bg-green {
+  background: #007d34 !important; }
+
+.\!bg-gray {
+  background: #606e79 !important; }
+
+.\!bg-black {
+  background: #1D1F20 !important; }
+
+.white {
+  color: #f9f9fa; }
+
+.blue {
+  color: #006fbe; }
+
+.red {
+  color: #d2202f; }
+
+.green {
+  color: #007d34; }
+
+.gray {
+  color: #606e79; }
+
+.black {
+  color: #1D1F20; }
+
 /*# sourceMappingURL=relax.css.map */

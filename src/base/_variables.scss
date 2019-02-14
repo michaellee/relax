@@ -17,3 +17,19 @@ $h3: 1.17rem;
 $h4: 1rem;
 $h5: 0.88rem;
 $h6: 0.67rem;
+
+$white: #f9f9fa;
+$blue:  #006fbe;
+$red:   #d2202f;
+$green: #007d34;
+$gray:  #606e79;
+$black: #1D1F20;
+
+$colors: (
+  white:         $white,
+  blue:          $blue,
+  red:           $red,
+  green:         $green,
+  gray:          $gray,
+  black:         $black
+);

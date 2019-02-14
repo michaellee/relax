@@ -1,5 +1,3 @@
-// @TODO add to index.scss when sample color variables are added
-
 @each $color, $value in $colors{
   .bg-#{''+$color}{
     background: $value;
