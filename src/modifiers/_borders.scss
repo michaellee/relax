@@ -1,0 +1,30 @@
+.bt {
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
+.br {
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+.bb {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.bl {
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+
+.b  {
+  border-width: 1px;
+  border-style: solid;
+}
+
+@each $color, $value in $colors{
+  .b-#{''+$color}{
+    border-color: $value;
+  }
+}

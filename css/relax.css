@@ -1196,3 +1196,41 @@ h6, .h6 {
 
 .black {
   color: #1D1F20; }
+
+.bt {
+  border-top-width: 1px;
+  border-top-style: solid; }
+
+.br {
+  border-right-width: 1px;
+  border-right-style: solid; }
+
+.bb {
+  border-bottom-width: 1px;
+  border-bottom-style: solid; }
+
+.bl {
+  border-left-width: 1px;
+  border-left-style: solid; }
+
+.b {
+  border-width: 1px;
+  border-style: solid; }
+
+.b-white {
+  border-color: #f9f9fa; }
+
+.b-blue {
+  border-color: #006fbe; }
+
+.b-red {
+  border-color: #d2202f; }
+
+.b-green {
+  border-color: #007d34; }
+
+.b-gray {
+  border-color: #606e79; }
+
+.b-black {
+  border-color: #1D1F20; }
