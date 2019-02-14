@@ -1,0 +1,50 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+
+  @media (max-width: 1499px ){
+    max-width: 1200px;
+  }
+  @media (max-width: 1200px ){
+    max-width: 832px;
+  }
+}
+
+.full-width {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.col{
+  float: left;
+  box-sizing: border-box;
+}
+
+@for $i from 1 through 12{
+  .col#{$i} { width:($i/12 * 100%); }
+  .offset#{$i} { margin-left:($i/12 * 100%); }
+}
+
+@media #{$breakpoint-sm} {
+  @for $i from 1 through 12{
+    .sm-col#{$i} { width:($i/12 * 100%); }
+    .sm-offset#{$i} { margin-left:($i/12 * 100%); }
+  }
+}
+
+@media #{$breakpoint-md} {
+  @for $i from 1 through 12{
+    .md-col#{$i} { width:($i/12 * 100%); }
+    .md-offset#{$i} { margin-left:($i/12 * 100%); }
+  }
+}
+
+@media #{$breakpoint-lg} {
+  @for $i from 1 through 12{
+    .lg-col#{$i} { width:($i/12 * 100%); }
+    .lg-offset#{$i} { margin-left:($i/12 * 100%); }
+  }
+}
