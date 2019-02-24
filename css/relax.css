@@ -48,6 +48,9 @@ table {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+html {
+  overflow-x: hidden; }
+
 html, body {
   font-size: 16px; }
 
@@ -1587,3 +1590,29 @@ h6, .h6 {
 
 .align-end {
   align-items: flex-end; }
+
+.NavTrigger {
+  display: inline-block; }
+  @media (min-width: 40rem) {
+    .NavTrigger {
+      display: none; } }
+
+.NavList {
+  position: absolute;
+  right: -150%;
+  transition: right 0.2s ease-in;
+  width: 80%; }
+  @media (min-width: 40rem) {
+    .NavList {
+      right: 0;
+      position: relative;
+      width: initial; } }
+
+.Nav.is-expanded .NavList {
+  right: 0; }
+
+.NavList-Item {
+  display: block; }
+  @media (min-width: 40rem) {
+    .NavList-Item {
+      display: inline-block; } }

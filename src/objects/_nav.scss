@@ -1,0 +1,33 @@
+.Nav {
+
+}
+
+.NavTrigger {
+  display: inline-block;
+  @media #{$breakpoint-sm} {
+    display: none;
+  }
+}
+
+.NavList {
+  position: absolute;
+  right: -150%;
+  transition: right 0.2s ease-in;
+  width: 80%;
+  @media #{$breakpoint-sm} {
+    right: 0;
+    position: relative;
+    width: initial;
+  }
+}
+
+.Nav.is-expanded .NavList{
+  right: 0;
+}
+
+.NavList-Item {
+  display: block;
+  @media #{$breakpoint-sm} {
+    display: inline-block;
+  }
+}
