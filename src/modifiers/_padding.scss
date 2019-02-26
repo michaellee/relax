@@ -1,0 +1,74 @@
+$max-step: 10;
+
+@for $i from 1 through $max-step {
+  .p#{$i}  { padding:         $unit * $i; }
+  .pt#{$i} { padding-top:     $unit * $i; }
+  .pr#{$i} { padding-right:   $unit * $i; }
+  .pb#{$i} { padding-bottom:  $unit * $i; }
+  .pl#{$i} { padding-left:    $unit * $i; }
+
+  .py#{$i} { padding-top:     $unit * $i;
+             padding-bottom:  $unit * $i; }
+
+  .px#{$i} { padding-left:    $unit * $i;
+             padding-right:   $unit * $i; }
+}
+
+@media #{$breakpoint-sm} {
+  @for $i from 1 through $max-step {
+
+    .sm-p#{$i}  { padding:         $unit * $i; }
+    .sm-pt#{$i} { padding-top:     $unit * $i; }
+    .sm-pr#{$i} { padding-right:   $unit * $i; }
+    .sm-pb#{$i} { padding-bottom:  $unit * $i; }
+    .sm-pl#{$i} { padding-left:    $unit * $i; }
+
+    .sm-px#{$i} { padding-left:    $unit * $i;
+                  padding-right:   $unit * $i; }
+    .sm-py#{$i} { padding-top:     $unit * $i;
+                  padding-bottom:  $unit * $i; }
+  }
+}
+
+@media #{$breakpoint-md} {
+  @for $i from 1 through $max-step {
+    .md-p#{$i}  { padding:         $unit * $i; }
+    .md-pt#{$i} { padding-top:     $unit * $i; }
+    .md-pr#{$i} { padding-right:   $unit * $i; }
+    .md-pb#{$i} { padding-bottom:  $unit * $i; }
+    .md-pl#{$i} { padding-left:    $unit * $i; }
+
+    .md-px#{$i} { padding-left:    $unit * $i;
+                  padding-right:   $unit * $i; }
+    .md-py#{$i} { padding-top:     $unit * $i;
+                  padding-bottom:  $unit * $i; }
+  }
+}
+
+@media #{$breakpoint-lg} {
+  @for $i from 1 through $max-step {
+    .lg-p#{$i}  { padding:         $unit * $i; }
+    .lg-pt#{$i} { padding-top:     $unit * $i; }
+    .lg-pr#{$i} { padding-right:   $unit * $i; }
+    .lg-pb#{$i} { padding-bottom:  $unit * $i; }
+    .lg-pl#{$i} { padding-left:    $unit * $i; }
+
+    .lg-px#{$i} { padding-left:    $unit * $i;
+                  padding-right:   $unit * $i; }
+    .lg-py#{$i} { padding-top:     $unit * $i;
+                  padding-bottom:  $unit * $i; }
+  }
+}
+
+@for $i from 0 through $max-step/2 {
+  .p#{$i}\.5  { padding:         $unit * ($i + 0.5); }
+  .pt#{$i}\.5 { padding-top:     $unit * ($i + 0.5); }
+  .pr#{$i}\.5 { padding-right:   $unit * ($i + 0.5); }
+  .pb#{$i}\.5 { padding-bottom:  $unit * ($i + 0.5); }
+  .pl#{$i}\.5 { padding-left:    $unit * ($i + 0.5); }
+
+  .px#{$i}\.5 { padding-left:    $unit * ($i + 0.5);
+                padding-right:   $unit * ($i + 0.5); }
+  .py#{$i}\.5 { padding-top:     $unit * ($i + 0.5);
+                padding-bottom:  $unit * ($i + 0.5); }
+}
