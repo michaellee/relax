@@ -1,0 +1,31 @@
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.b0 {
+  bottom: 0;
+}
+
+.t0 {
+  top: 0;
+}
+
+.r0 {
+  right: 0;
+}
+
+.l0 {
+  left: 0;
+}
+
+.t100 {
+  top: 100%;
+}
+
+@for $i from 1 through 5 {
+  .z#{$i}  { z-index: #{$i}; }
+}
