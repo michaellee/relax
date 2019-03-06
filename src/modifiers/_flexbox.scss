@@ -2,6 +2,14 @@
   display: flex;
 }
 
+.\!flex {
+  display: flex !important;
+}
+
+.flex1 {
+  flex: 1;
+}
+
 .flex-column {
   flex-direction: column;
 }
