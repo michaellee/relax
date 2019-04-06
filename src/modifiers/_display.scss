@@ -1,0 +1,51 @@
+.hide {
+  display: none;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.sm-show {
+  @media #{$breakpoint-sm} {
+    display: block;
+  }
+}
+
+.md-show {
+  @media #{$breakpoint-md} {
+    display: block;
+  }
+}
+
+.lg-show {
+  @media #{$breakpoint-lg} {
+    display: block;
+  }
+}
+
+.sm-hide {
+  @media #{$breakpoint-sm} {
+    display: none;
+  }
+}
+
+.md-hide {
+  @media #{$breakpoint-md} {
+    display: none;
+  }
+}
+
+.lg-hide {
+  @media #{$breakpoint-lg} {
+    display: none;
+  }
+}
