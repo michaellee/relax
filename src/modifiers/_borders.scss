@@ -32,3 +32,19 @@
 .circle {
   border-radius: 100%;
 }
+
+.b-none {
+  border: none;
+}
+
+@for $i from 1 through $max-step {
+  .b#{$i} { border-width: #{$i}px; }
+  .bt#{$i} { border-top-width: #{$i}px; }
+  .br#{$i} { border-right-width:#{$i}px; }
+  .bb#{$i} { border-bottom-width: #{$i}px; }
+  .bl#{$i} { border-left-width: #{$i}px; }
+}
+
+.r-sm {
+  border-radius: $unit/2;
+}
