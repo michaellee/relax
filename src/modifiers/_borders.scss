@@ -29,10 +29,6 @@
   }
 }
 
-.circle {
-  border-radius: 100%;
-}
-
 .b-none {
   border: none;
 }
@@ -47,4 +43,8 @@
 
 .r-sm {
   border-radius: $unit/2;
+}
+
+.circle {
+  border-radius: 100%;
 }
