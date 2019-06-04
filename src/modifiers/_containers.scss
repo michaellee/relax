@@ -1,0 +1,13 @@
+@each $size, $value in $sizes{
+  .container-#{$size} {
+    max-width: $value;
+  }
+}
+
+@each $prefix, $value in $sizes{
+  @each $size, $value in $sizes{
+    .#{$prefix}-container-#{$size} {
+      max-width: $value;
+    }
+  }
+}

@@ -1,9 +1,14 @@
 $unit: 8px;
 
-$breakpoint-sm: '(min-width: 40rem)' !default;
-$breakpoint-md: '(min-width: 48rem)' !default;
-$breakpoint-lg: '(min-width: 64rem)' !default;
-$breakpoint-xl: '(min-width: 80rem)' !default;
+$sm: 40rem;
+$md: 48rem;
+$lg: 64rem;
+$xl: 80rem;
+
+$breakpoint-sm: '(min-width: #{$sm})' !default;
+$breakpoint-md: '(min-width: #{$md})' !default;
+$breakpoint-lg: '(min-width: #{$lg})' !default;
+$breakpoint-xl: '(min-width: #{$xl})' !default;
 
 $thin:       200;
 $light:      300;
@@ -34,3 +39,10 @@ $colors: (
   gray:          $gray,
   black:         $black
 );
+
+$sizes: (
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl
+)
