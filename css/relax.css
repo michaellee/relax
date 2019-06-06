@@ -3234,6 +3234,9 @@ h6, .h6 {
 .shadow {
   box-shadow: 0 1px 5px 0 rgba(29, 31, 32, 0.1), 0 1px 4px 0 rgba(29, 31, 32, 0.06); }
 
+.container-xs {
+  max-width: 36rem; }
+
 .container-sm {
   max-width: 40rem; }
 
@@ -3247,6 +3250,9 @@ h6, .h6 {
   max-width: 80rem; }
 
 @media (min-width: 40rem) {
+  .sm-container-xs {
+    max-width: 36rem; }
+
   .sm-container-sm {
     max-width: 40rem; }
 
@@ -3259,6 +3265,9 @@ h6, .h6 {
   .sm-container-xl {
     max-width: 80rem; } }
 @media (min-width: 48rem) {
+  .md-container-xs {
+    max-width: 36rem; }
+
   .md-container-sm {
     max-width: 40rem; }
 
@@ -3271,6 +3280,9 @@ h6, .h6 {
   .md-container-xl {
     max-width: 80rem; } }
 @media (min-width: 40rem) {
+  .lg-container-xs {
+    max-width: 36rem; }
+
   .lg-container-sm {
     max-width: 40rem; }
 
@@ -3283,6 +3295,9 @@ h6, .h6 {
   .lg-container-xl {
     max-width: 80rem; } }
 @media (min-width: 80rem) {
+  .xl-container-xs {
+    max-width: 36rem; }
+
   .xl-container-sm {
     max-width: 40rem; }
 

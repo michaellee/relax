@@ -1,5 +1,6 @@
 $unit: 8px;
 
+$xs: 36rem;
 $sm: 40rem;
 $md: 48rem;
 $lg: 64rem;
@@ -41,6 +42,7 @@ $colors: (
 );
 
 $sizes: (
+  xs: $xs,
   sm: $sm,
   md: $md,
   lg: $lg,
