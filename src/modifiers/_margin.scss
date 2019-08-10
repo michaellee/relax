@@ -1,16 +1,16 @@
 $max-steps: 10;
 
 @for $i from 1 through $max-steps {
-  .m#{$i}  { margin:         $unit * $i; }
-  .mt#{$i} { margin-top:     $unit * $i; }
-  .mr#{$i} { margin-right:   $unit * $i; }
-  .mb#{$i} { margin-bottom:  $unit * $i; }
-  .ml#{$i} { margin-left:    $unit * $i; }
+  .m#{$i}    { margin:         $unit * $i; }
+  .mt#{$i}   { margin-top:     $unit * $i; }
+  .mr#{$i}   { margin-right:   $unit * $i; }
+  .mb#{$i}   { margin-bottom:  $unit * $i; }
+  .ml#{$i}   { margin-left:    $unit * $i; }
 
-  .mx#{$i} { margin-left:    $unit * $i;
-             margin-right:   $unit * $i; }
-  .my#{$i} { margin-top:     $unit * $i;
-             margin-bottom:  $unit * $i; }
+  .mx#{$i}   { margin-left:    $unit * $i;
+               margin-right:   $unit * $i; }
+  .my#{$i}   { margin-top:     $unit * $i;
+               margin-bottom:  $unit * $i; }
   .\!m#{$i}  { margin:         $unit * $i !important; }
   .\!mt#{$i} { margin-top:     $unit * $i !important; }
   .\!mr#{$i} { margin-right:   $unit * $i !important; }
