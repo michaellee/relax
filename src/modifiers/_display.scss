@@ -14,37 +14,37 @@
   display: block;
 }
 
-.sm-show {
+.sm\:block {
   @media #{$breakpoint-sm} {
     display: block;
   }
 }
 
-.md-show {
+.md\:block {
   @media #{$breakpoint-md} {
     display: block;
   }
 }
 
-.lg-show {
+.lg\:block {
   @media #{$breakpoint-lg} {
     display: block;
   }
 }
 
-.sm-hide {
+.sm\:hide {
   @media #{$breakpoint-sm} {
     display: none;
   }
 }
 
-.md-hide {
+.md\:hide {
   @media #{$breakpoint-md} {
     display: none;
   }
 }
 
-.lg-hide {
+.lg\:hide {
   @media #{$breakpoint-lg} {
     display: none;
   }
