@@ -10,21 +10,37 @@
 
 @media #{$breakpoint-sm} {
   @for $i from 1 through 12{
-    .sm-col#{$i} { width:($i/12 * 100%); }
-    .sm-offset#{$i} { margin-left:($i/12 * 100%); }
+    .sm\:col#{$i} { width:($i/12 * 100%); }
+    .sm\:offset#{$i} { margin-left:($i/12 * 100%); }
   }
 }
 
 @media #{$breakpoint-md} {
   @for $i from 1 through 12{
-    .md-col#{$i} { width:($i/12 * 100%); }
-    .md-offset#{$i} { margin-left:($i/12 * 100%); }
+    .md\:col#{$i} { width:($i/12 * 100%); }
+    .md\:offset#{$i} { margin-left:($i/12 * 100%); }
   }
 }
 
 @media #{$breakpoint-lg} {
   @for $i from 1 through 12{
-    .lg-col#{$i} { width:($i/12 * 100%); }
-    .lg-offset#{$i} { margin-left:($i/12 * 100%); }
+    .lg\:col#{$i} { width:($i/12 * 100%); }
+    .lg\:offset#{$i} { margin-left:($i/12 * 100%); }
   }
+}
+
+.col0 {
+  width: inherit;
+}
+
+@media #{$breakpoint-sm} {
+  .sm\:col0 { width: inherit; }
+}
+
+@media #{$breakpoint-md} {
+  .md\:col0 { width: inherit; }
+}
+
+@media #{$breakpoint-lg} {
+  .lg\:col0 { width: inherit; }
 }
