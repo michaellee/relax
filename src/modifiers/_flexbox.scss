@@ -2,6 +2,24 @@
   display: flex;
 }
 
+.sm\:flex {
+  @media #{$breakpoint-sm} {
+    display: flex;
+  }
+}
+
+.md\:flex {
+  @media #{$breakpoint-md} {
+    display: flex;
+  }
+}
+
+.lg\:flex {
+  @media #{$breakpoint-lg} {
+    display: flex;
+  }
+}
+
 .\!flex {
   display: flex !important;
 }
