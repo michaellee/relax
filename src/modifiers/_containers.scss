@@ -6,7 +6,7 @@
 
 @media #{$breakpoint-sm} {
   @each $size, $value in $sizes{
-    .sm-container-#{$size} {
+    .sm\:container-#{$size} {
       max-width: $value;
     }
   }
@@ -14,7 +14,7 @@
 
 @media #{$breakpoint-md} {
   @each $size, $value in $sizes{
-    .md-container-#{$size} {
+    .md\:container-#{$size} {
       max-width: $value;
     }
   }
@@ -22,7 +22,7 @@
 
 @media #{$breakpoint-sm} {
   @each $size, $value in $sizes{
-    .lg-container-#{$size} {
+    .lg\:container-#{$size} {
       max-width: $value;
     }
   }
@@ -30,7 +30,7 @@
 
 @media #{$breakpoint-xl} {
   @each $size, $value in $sizes{
-    .xl-container-#{$size} {
+    .xl\:container-#{$size} {
       max-width: $value;
     }
   }
