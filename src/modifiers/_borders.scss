@@ -26,6 +26,13 @@
 @each $color, $value in $colors{
   .b-#{''+$color}{
     border-color: $value;
+    transition: border-color 0.2s ease-in-out;
+  }
+}
+
+@each $color, $value in $colors{
+  .bh-#{''+$color}:hover{
+    border-color: $value;
   }
 }
 
