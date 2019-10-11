@@ -29,18 +29,18 @@
   }
 }
 
-.col0 {
+.col-reset {
   width: inherit;
 }
 
 @media #{$breakpoint-sm} {
-  .sm\:col0 { width: inherit; }
+  .sm\:col-reset { width: inherit; }
 }
 
 @media #{$breakpoint-md} {
-  .md\:col0 { width: inherit; }
+  .md\:col-reset { width: inherit; }
 }
 
 @media #{$breakpoint-lg} {
-  .lg\:col0 { width: inherit; }
+  .lg\:col-reset { width: inherit; }
 }
