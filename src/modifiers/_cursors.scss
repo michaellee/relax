@@ -1,15 +1,13 @@
-.cursor-pointer {
-  cursor: pointer;
+$cursors: pointer, text, move, default, grab;
+
+@each $cursor in $cursors {
+  .cursor-#{$cursor} {
+    cursor: $cursor;
+  }
 }
 
-.cursor-text {
-  cursor: text;
-}
-
-.cursor-move {
-  cursor: move;
-}
-
-.cursor-default {
-  cursor: default;
+@each $cursor in $cursors {
+  .\!cursor-#{$cursor} {
+    cursor: $cursor;
+  }
 }
