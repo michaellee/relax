@@ -49,7 +49,18 @@
 }
 
 .r-sm {
-  border-radius: $unit/2;
+  border-radius: $unit / 2;
+  overflow: hidden;
+}
+
+.r-md {
+  border-radius: $unit;
+  overflow: hidden;
+}
+
+.r-lg {
+  border-radius: $unit * 1.5;
+  overflow: hidden;
 }
 
 .circle {
