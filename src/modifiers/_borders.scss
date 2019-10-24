@@ -40,7 +40,7 @@
   border: none;
 }
 
-@for $i from 1 through $max-step {
+@for $i from 1 through $max-steps {
   .b#{$i} { border-width: #{$i}px; }
   .bt#{$i} { border-top-width: #{$i}px; }
   .br#{$i} { border-right-width:#{$i}px; }

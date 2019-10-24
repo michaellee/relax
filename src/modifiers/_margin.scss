@@ -1,5 +1,3 @@
-$max-steps: 10;
-
 @for $i from 1 through $max-steps {
   .m#{$i}    { margin:         $unit * $i; }
   .mt#{$i}   { margin-top:     $unit * $i; }

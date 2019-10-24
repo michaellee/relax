@@ -1,6 +1,4 @@
-$max-step: 10;
-
-@for $i from 1 through $max-step {
+@for $i from 1 through $max-steps {
   .p#{$i}  { padding:         $unit * $i; }
   .pt#{$i} { padding-top:     $unit * $i; }
   .pr#{$i} { padding-right:   $unit * $i; }
@@ -15,7 +13,7 @@ $max-step: 10;
 }
 
 @media #{$breakpoint-sm} {
-  @for $i from 1 through $max-step {
+  @for $i from 1 through $max-steps {
 
     .sm-p#{$i}  { padding:         $unit * $i; }
     .sm-pt#{$i} { padding-top:     $unit * $i; }
@@ -31,7 +29,7 @@ $max-step: 10;
 }
 
 @media #{$breakpoint-md} {
-  @for $i from 1 through $max-step {
+  @for $i from 1 through $max-steps {
     .md-p#{$i}  { padding:         $unit * $i; }
     .md-pt#{$i} { padding-top:     $unit * $i; }
     .md-pr#{$i} { padding-right:   $unit * $i; }
@@ -46,7 +44,7 @@ $max-step: 10;
 }
 
 @media #{$breakpoint-lg} {
-  @for $i from 1 through $max-step {
+  @for $i from 1 through $max-steps {
     .lg-p#{$i}  { padding:         $unit * $i; }
     .lg-pt#{$i} { padding-top:     $unit * $i; }
     .lg-pr#{$i} { padding-right:   $unit * $i; }
@@ -60,7 +58,7 @@ $max-step: 10;
   }
 }
 
-@for $i from 0 through $max-step/2 {
+@for $i from 0 through $max-steps/2 {
   .p#{$i}\.5  { padding:         $unit * ($i + 0.5); }
   .pt#{$i}\.5 { padding-top:     $unit * ($i + 0.5); }
   .pr#{$i}\.5 { padding-right:   $unit * ($i + 0.5); }
