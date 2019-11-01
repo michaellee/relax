@@ -34,18 +34,18 @@ $gray:  #606e79;
 $black: #1D1F20;
 
 $colors: (
-  white:         $white,
-  blue:          $blue,
-  red:           $red,
-  green:         $green,
-  gray:          $gray,
-  black:         $black
+  "white":         $white,
+  "blue":          $blue,
+  "red":           $red,
+  "green":         $green,
+  "gray":          $gray,
+  "black":         $black
 );
 
 $sizes: (
-  xs: $xs,
-  sm: $sm,
-  md: $md,
-  lg: $lg,
-  xl: $xl
+  "xs": $xs,
+  "sm": $sm,
+  "md": $md,
+  "lg": $lg,
+  "xl": $xl
 )
