@@ -15,45 +15,45 @@
 @media #{$breakpoint-sm} {
   @for $i from 1 through $max-steps {
 
-    .sm-p#{$i}  { padding:         $unit * $i; }
-    .sm-pt#{$i} { padding-top:     $unit * $i; }
-    .sm-pr#{$i} { padding-right:   $unit * $i; }
-    .sm-pb#{$i} { padding-bottom:  $unit * $i; }
-    .sm-pl#{$i} { padding-left:    $unit * $i; }
+    .sm\:p#{$i}  { padding:         $unit * $i; }
+    .sm\:pt#{$i} { padding-top:     $unit * $i; }
+    .sm\:pr#{$i} { padding-right:   $unit * $i; }
+    .sm\:pb#{$i} { padding-bottom:  $unit * $i; }
+    .sm\:pl#{$i} { padding-left:    $unit * $i; }
 
-    .sm-px#{$i} { padding-left:    $unit * $i;
+    .sm\:px#{$i} { padding-left:    $unit * $i;
                   padding-right:   $unit * $i; }
-    .sm-py#{$i} { padding-top:     $unit * $i;
+    .sm\:py#{$i} { padding-top:     $unit * $i;
                   padding-bottom:  $unit * $i; }
   }
 }
 
 @media #{$breakpoint-md} {
   @for $i from 1 through $max-steps {
-    .md-p#{$i}  { padding:         $unit * $i; }
-    .md-pt#{$i} { padding-top:     $unit * $i; }
-    .md-pr#{$i} { padding-right:   $unit * $i; }
-    .md-pb#{$i} { padding-bottom:  $unit * $i; }
-    .md-pl#{$i} { padding-left:    $unit * $i; }
+    .md\:p#{$i}  { padding:         $unit * $i; }
+    .md\:pt#{$i} { padding-top:     $unit * $i; }
+    .md\:pr#{$i} { padding-right:   $unit * $i; }
+    .md\:pb#{$i} { padding-bottom:  $unit * $i; }
+    .md\:pl#{$i} { padding-left:    $unit * $i; }
 
-    .md-px#{$i} { padding-left:    $unit * $i;
+    .md\:px#{$i} { padding-left:    $unit * $i;
                   padding-right:   $unit * $i; }
-    .md-py#{$i} { padding-top:     $unit * $i;
+    .md\:py#{$i} { padding-top:     $unit * $i;
                   padding-bottom:  $unit * $i; }
   }
 }
 
 @media #{$breakpoint-lg} {
   @for $i from 1 through $max-steps {
-    .lg-p#{$i}  { padding:         $unit * $i; }
-    .lg-pt#{$i} { padding-top:     $unit * $i; }
-    .lg-pr#{$i} { padding-right:   $unit * $i; }
-    .lg-pb#{$i} { padding-bottom:  $unit * $i; }
-    .lg-pl#{$i} { padding-left:    $unit * $i; }
+    .lg\:p#{$i}  { padding:         $unit * $i; }
+    .lg\:pt#{$i} { padding-top:     $unit * $i; }
+    .lg\:pr#{$i} { padding-right:   $unit * $i; }
+    .lg\:pb#{$i} { padding-bottom:  $unit * $i; }
+    .lg\:pl#{$i} { padding-left:    $unit * $i; }
 
-    .lg-px#{$i} { padding-left:    $unit * $i;
+    .lg\:px#{$i} { padding-left:    $unit * $i;
                   padding-right:   $unit * $i; }
-    .lg-py#{$i} { padding-top:     $unit * $i;
+    .lg\:py#{$i} { padding-top:     $unit * $i;
                   padding-bottom:  $unit * $i; }
   }
 }
