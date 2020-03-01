@@ -33,3 +33,8 @@
 @for $i from 1 through 5 {
   .z#{$i}  { z-index: #{$i}; }
 }
+
+.centerer-x {
+  left: 50%;
+  transform: translateX(-50%);
+}
