@@ -1,0 +1,3 @@
+@for $i from 0 through 20 {
+  .o#{$i * 5} { opacity: ($i * 5)/100; }
+}
