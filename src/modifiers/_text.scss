@@ -30,6 +30,19 @@
   text-transform: lowercase;
 }
 
+.select {
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  user-select: all;
+  
+}
+
+.select-none {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
 .copy {
   
 }
