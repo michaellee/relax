@@ -1,3 +1,40 @@
+$positions: (
+  "absolute": absolute,
+  "relative": relative,
+  "sticky": sticky,
+  "fixed": fixed
+);
+
+@each $position, $value in $positions {
+  .#{$position} {
+    position: $value;
+  }
+}
+
+@media #{$breakpoint-sm} {
+  @each $position, $value in $positions {
+    .sm\:#{$position} {
+      position: $value;
+    }
+  }
+}
+
+@media #{$breakpoint-md} {
+  @each $position, $value in $positions {
+    .md\:#{$position} {
+      position: $value;
+    }
+  }
+}
+
+@media #{$breakpoint-lg} {
+  @each $position, $value in $positions {
+    .lg\:#{$position} {
+      position: $value;
+    }
+  }
+}
+
 .absolute {
   position: absolute;
 }
