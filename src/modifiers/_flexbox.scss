@@ -142,3 +142,31 @@
   -ms-flex-align: end;
   align-items: flex-end;
 }
+
+@for $i from 1 through 4 {
+  .gap#{$i} {
+    gap: $unit * $i;
+  }
+}
+
+@for $i from 1 through 20 {
+  .basis#{$i} {
+    flex-basis: $unit * $i;
+  }
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.grow0 {
+  flex-grow: 0;
+}
+
+.shrink {
+  flex-shrink: 1;
+}
+
+.shrink0 {
+  flex-shrink: 0;
+}
