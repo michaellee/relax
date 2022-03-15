@@ -137,6 +137,12 @@
   align-items: center;
 }
 
+.align-start {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
 .align-end {
   -webkit-box-align: end;
   -ms-flex-align: end;
@@ -149,7 +155,7 @@
   }
 }
 
-@for $i from 1 through 20 {
+@for $i from 1 through 30 {
   .basis#{$i} {
     flex-basis: $unit * $i;
   }
