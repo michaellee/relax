@@ -10,3 +10,9 @@
     fill: $value !important;
   }
 }
+
+@each $color, $value in $colors{
+  .hover-fill-#{''+$color}:hover{
+    fill: $value;
+  }
+}
