@@ -1,0 +1,43 @@
+@for $i from 1 through 30 {
+  .w#{$i} {
+    width: $unit * $i;;
+  }
+}
+
+@each $size, $value in $sizes{
+  .maxw#{$size} {
+    max-width: $value;
+  }
+}
+
+@media #{$breakpoint-sm} {
+  @each $size, $value in $sizes{
+    .sm\:maxw#{$size} {
+      max-width: $value;
+    }
+  }
+}
+
+@media #{$breakpoint-md} {
+  @each $size, $value in $sizes{
+    .md\:maxw#{$size} {
+      max-width: $value;
+    }
+  }
+}
+
+@media #{$breakpoint-sm} {
+  @each $size, $value in $sizes{
+    .lg\:maxw#{$size} {
+      max-width: $value;
+    }
+  }
+}
+
+@media #{$breakpoint-xl} {
+  @each $size, $value in $sizes{
+    .xl\:maxw#{$size} {
+      max-width: $value;
+    }
+  }
+}
