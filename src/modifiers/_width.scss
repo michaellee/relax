@@ -5,14 +5,14 @@
 }
 
 @each $size, $value in $sizes{
-  .maxw#{$size} {
+  .maxw-#{$size} {
     max-width: $value;
   }
 }
 
 @media #{$breakpoint-sm} {
   @each $size, $value in $sizes{
-    .sm\:maxw#{$size} {
+    .sm\:maxw-#{$size} {
       max-width: $value;
     }
   }
@@ -20,7 +20,7 @@
 
 @media #{$breakpoint-md} {
   @each $size, $value in $sizes{
-    .md\:maxw#{$size} {
+    .md\:maxw-#{$size} {
       max-width: $value;
     }
   }
@@ -28,7 +28,7 @@
 
 @media #{$breakpoint-sm} {
   @each $size, $value in $sizes{
-    .lg\:maxw#{$size} {
+    .lg\:maxw-#{$size} {
       max-width: $value;
     }
   }
@@ -36,7 +36,7 @@
 
 @media #{$breakpoint-xl} {
   @each $size, $value in $sizes{
-    .xl\:maxw#{$size} {
+    .xl\:maxw-#{$size} {
       max-width: $value;
     }
   }
